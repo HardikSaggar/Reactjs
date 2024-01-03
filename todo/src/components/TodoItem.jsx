@@ -1,8 +1,10 @@
-export default function AddItems() {
-  let todoName = "Milk";
-  let todoDate = "04/12/2020";
+import styles from './TodoItem.module.css'
+
+export default function TodoItem({ todoName, todoDate }) {
+  // let todoName = "Milk";
+  // let todoDate = "04/12/2020";
   return (
-    <div className="row">
+    <div className={`row ${styles["added-items"]}`}>
       <div className="col-6">
         <p>{todoName}</p>
       </div>
