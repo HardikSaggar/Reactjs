@@ -1,9 +1,15 @@
 .kg-item {
-    background-color: beige !important;
+    background-color: beige;
+
 }
 
 
 .kg-span {
     font-weight: 500;
     color: rgb(4, 26, 27);
+    /* background-color: aliceblue; */
+}
+
+.button {
+    float: right;
 }
