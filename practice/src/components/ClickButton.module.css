@@ -1,0 +1,10 @@
+.click-btn{
+   background-color: black;
+   padding: 10px;
+   width: 50px;
+   border: 1px solid white;
+   color: white;
+   margin: 10px;
+   cursor: pointer;
+
+}
